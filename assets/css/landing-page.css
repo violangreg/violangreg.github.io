@@ -1651,7 +1651,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     text-align: center;
   }
   .landing-page .navbar-fixed-top{
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.40);
   }
   .landing-page .parallax {
     height: 550px;
@@ -1687,25 +1687,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   .footer nav.pull-left, .footer:not(.footer-big) nav > ul li, .pull-right {
     float: none !important;
   }
+  /*
+  GREG CUSTOM MOBILE
+  */
+
+  .scroll-adjust-projects{
+    padding-top:145px;
+    margin-top:-145px;
+  }
+
+  .scroll-adjust-contact{
+    padding-top:65px;
+    margin-top:-65px;
+  }
 }
 
 @media (min-width: 768px){
-    .landing-page .navbar-fixed-top{
-        padding-top: 10px;
-    }
-    .landing-page .navbar-fixed-top{
-      background: rgba(0, 0, 0, 0.40);
-    }
+  .landing-page .navbar-fixed-top{
+      padding-top: 10px;
+  }
+  /*
+  GREG CUSTOM DESKTOP
+  */
+  .landing-page .navbar-fixed-top{
+    background: rgba(0, 0, 0, 0.40);
+  }
+
+  .scroll-adjust-projects{
+    padding-top:160px;
+    margin-top:-160px;
+  }
 }
 
 /*
 GREG CUSTOM
 */
-
-.scroll-adjust{
-  padding-top:160px;
-  margin-top:-160px;
-}
 
 .list-group-item {
   position: relative;
