@@ -434,6 +434,7 @@ a:focus, a:active {
   border: 0;
   font-size: 16px;
 }
+
 .navbar .navbar-brand {
   font-weight: 600;
   margin: 5px 0px;
@@ -441,7 +442,7 @@ a:focus, a:active {
   font-size: 20px;
 }
 .navbar .navbar-nav > li > a {
-  padding: 10px 15px;
+  padding: 10px 8em;
   margin: 15px 3px;
 }
 .navbar .navbar-nav > li > a.btn {
@@ -879,7 +880,6 @@ a:focus, a:active {
 }
 
 .landing-page .navbar-fixed-top {
-  
   top: 0;
   right: 0;
   left: 0;
@@ -1031,6 +1031,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   margin-top: 200px;
   color: white;
   padding: 5px;
+  font-size: 1.1em;
 }
 
 .landing-page .section-presentation .description{
@@ -1053,7 +1054,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 .landing-page .parallax .buttons{
   width: 100%;
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 25px;
+  margin-left: 15px;
   }
 
   .landing-page .parallax .buttons h4{
@@ -1061,13 +1063,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     display: inline-block;
   }
 
-  .landing-page .parallax .buttons h4 ~ .btn{
-    margin-top: -10px;
-    margin-left: 20px;
+  .landing-page .parallax .buttons .btn{
+    margin-right: 15px;
   }
 
   .landing-page .parallax .buttons .btn-simple{
     font-size: 30px;
+    padding-right: 15px;
   }
 
 
@@ -1661,7 +1663,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     height: 100%;
   }
   .landing-page .parallax .description{
-    margin-top: 65px;  }
+    margin-top: 65px;  
+  }
   .landing-page .parallax .buttons{
     margin: 20px 0;
   }
