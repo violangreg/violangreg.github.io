@@ -432,7 +432,7 @@ a:focus, a:active {
 
 .navbar {
   border: 0;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .navbar .navbar-brand {
@@ -862,7 +862,7 @@ a:focus, a:active {
 }
 
 .landing-page1 .container{
-  max-width: 970px;
+  max-width: 1050px;
 } 
 
 .landing-page2 .container{
@@ -1693,15 +1693,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   /*
   GREG CUSTOM MOBILE
   */
-
   .scroll-adjust-projects{
-    padding-top:145px;
-    margin-top:-145px;
+    padding-top:110px;
+    margin-top:-110px;
   }
 
   .scroll-adjust-contact{
     padding-top:65px;
     margin-top:-65px;
+  }
+  .scroll-adjust-work-experiences{
+    padding-top:150px;
+    margin-top:-150px;
   }
 }
 
@@ -1717,6 +1720,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
 
   .scroll-adjust-projects{
+    padding-top:110px;
+    margin-top:-110px;
+  }
+
+  .scroll-adjust-work-experiences{
     padding-top:160px;
     margin-top:-160px;
   }
