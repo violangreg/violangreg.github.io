@@ -5,6 +5,7 @@ Last updated on 8-24-24
 - Updated new background
 - Remove GitHub (CityLB), GitLab (CityLB)
 - Add Resume link
+====================
 Last updated on 8-31-21
 - Added profile photo and responsiveness
 - Updated About summary
