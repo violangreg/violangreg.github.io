@@ -1,4 +1,7 @@
 violangreg.github.io
+Last updated on 5-1-25
+- Add new photo
+- Update resume
 ====================
 Last updated on 8-24-24
 - Added Work Experiences section
