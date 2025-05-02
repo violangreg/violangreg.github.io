@@ -1745,7 +1745,7 @@ GREG CUSTOM
 
 .portfolio-img__div {
   width: 200px;
-  height: 200px;
+  height: 250px;
   margin-top: 250px;
 }
 
@@ -1764,5 +1764,5 @@ GREG CUSTOM
 .portfolio-img__img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: 10%;
 }
