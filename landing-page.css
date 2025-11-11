@@ -1052,10 +1052,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 .landing-page .parallax .buttons{
-  width: 100%;
-  display: inline-block;
-  margin-top: 13px;
-  margin-left: 200px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 8%;
+  top: 25%;
+  gap: 10px;
+  visibility: hidden;
   }
 
   .landing-page .parallax .buttons h4{
@@ -1063,16 +1066,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     display: inline-block;
   }
 
-  .landing-page .parallax .buttons .btn{
-    margin-right: 15px;
-  }
-
   .landing-page .parallax .buttons .btn-simple{
     font-size: 30px;
     padding-right: 15px;
   }
 
-
+  .landing-page .parallax .buttons .btn{
+    border-width: 1px;
+    border-color: lightblue;
+  }
 
   .landing-page .logos {
     width: 100%;
@@ -1727,6 +1729,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   .scroll-adjust-work-experiences{
     padding-top:160px;
     margin-top:-160px;
+  }
+}
+
+@media (min-width: 1560px){
+  .landing-page .parallax .buttons{
+    visibility: visible;
   }
 }
 

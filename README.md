@@ -3,6 +3,9 @@ Last updated on 11-10-25
 - Updated intro
 - Added CDPH experience
 - Update EECP and GLIMR naming
+- Make the contact buttons fixed
+- Add contact buttons to contact
+- Improve responsive design
 ====================
 Last updated on 5-1-25
 - Add new photo
