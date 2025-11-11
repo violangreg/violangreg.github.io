@@ -1,23 +1,28 @@
 violangreg.github.io
-Last updated on 11-10-25
+## Last updated on 11-11-25
+- Added certifications
+- Add Deadlock project
+- Update responsive design
+====================== <br>
+## Last updated on 11-10-25
 - Updated intro
 - Added CDPH experience
 - Update EECP and GLIMR naming
 - Make the contact buttons fixed
 - Add contact buttons to contact
 - Improve responsive design
-====================
-Last updated on 5-1-25
+==================== <br>
+## Last updated on 5-1-25
 - Add new photo
 - Update resume
-====================
-Last updated on 8-24-24
+==================== <br>
+## Last updated on 8-24-24
 - Added Work Experiences section
 - Updated new background
 - Remove GitHub (CityLB), GitLab (CityLB)
 - Add Resume link
-====================
-Last updated on 8-31-21
+==================== <br>
+## Last updated on 8-31-21
 - Added profile photo and responsiveness
 - Updated About summary
 - Added GitHub (CityLB), GitLab (CityLB)

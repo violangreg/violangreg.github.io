@@ -1058,7 +1058,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   left: 8%;
   top: 25%;
   gap: 10px;
-  visibility: hidden;
   }
 
   .landing-page .parallax .buttons h4{
@@ -1732,9 +1731,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
 }
 
-@media (min-width: 1560px){
+@media (max-width: 1560px){
   .landing-page .parallax .buttons{
-    visibility: visible;
+    display: none;
+  }
+}
+
+@media (max-width: 1150px){
+  .descriptionx.card{
+    font-size: 12.5px !important;
+  }
+}
+
+@media (max-width: 990px){
+  .portfolio-img__div{
+    margin-left: 260px;
   }
 }
 
