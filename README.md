@@ -1,4 +1,9 @@
 violangreg.github.io
+Last updated on 11-10-25
+- Updated intro
+- Added CDPH experience
+- Update EECP and GLIMR naming
+====================
 Last updated on 5-1-25
 - Add new photo
 - Update resume
